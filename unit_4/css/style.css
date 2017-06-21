@@ -5,7 +5,7 @@ body {
   padding-right: 12em;
   padding-left: 4em;
   text-align: right;
-  background-image: url(file:///Users/agarcia/Desktop/laggr.github.io/unit_4/images/portfolio.jpg);
+  background-image: url(file:///laggr.github.io/unit_4/images/portfolio.jpg);
   background-size: cover;
   color: #fff;
 }
@@ -23,7 +23,7 @@ h2 {
   font-size:2.25em;
   line-height: .25em;
   font-family: "Roboto", Arial, sans serif;
-  font-weight: regular;
+  font-weight: lighter;
 }
 p {
   font-family: "Roboto", Arial, sans serif;
