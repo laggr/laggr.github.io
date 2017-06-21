@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+body {
+  padding-top: .5em;
+  padding-right: 12em;
+  padding-left: 4em;
+  text-align: right;
+  background-image: url(file:///Users/agarcia/Desktop/laggr.github.io/unit_4/images/portfolio.jpg);
+  background-size: cover;
+  color: #fff;
+}
+hr {
+  width:200px;
+}
+h1 {
+  color: #fff; 
+  font-size: 8em;
+  line-height: .5em;
+  font-family: "Roboto Slab", Arial, serif;
+}
+h2 {
+  color: #eee;
+  font-size:2.25em;
+  line-height: .25em;
+  font-family: "Roboto", Arial, sans serif;
+  font-weight: regular;
+}
+p {
+  font-family: "Roboto", Arial, sans serif;
+  font-style: thin;
+}
+plain {
+  font-size: 18px
+}
+strong {
+	color: #f06;
+	font-style: italic;
+	font-family: "Roboto Slab", Arial, serif;
+	font-weight: lighter;
+	font-size: 1.25em;
+}
