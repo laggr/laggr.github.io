@@ -1,0 +1,17 @@
+body {
+  text-align: right;
+  background-image: url(file:///Users/agarcia/Desktop/laggr.github.io/unit_3/images/portfolio.jpg);
+  background-size: cover;
+  color: #fff;
+  font-family: Avenir;
+}
+hr {
+  width:200px;
+}
+h1 {
+	color: #ff22dd; 
+	font-size: 80px;
+}
+p {
+  font-size: 22px;
+}
