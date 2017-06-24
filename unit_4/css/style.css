@@ -4,8 +4,8 @@ body {
   padding-top: .5em;
   padding-right: 12em;
   padding-left: 4em;
-  text-align: right;
-  background-image: url(file:///laggr.github.io/unit_4/images/portfolio.jpg);
+  text-align: left;
+  background-image: url(../images/portfolio.jpg);
   background-size: cover;
   color: #fff;
 }
@@ -13,29 +13,32 @@ hr {
   width:200px;
 }
 h1 {
-  color: #fff; 
-  font-size: 8em;
-  line-height: .5em;
-  font-family: "Roboto Slab", Arial, serif;
+  color:#fff; 
+  font-size:8em;
+  line-height:.5em;
+  font-family:"Roboto Slab", Courier, serif;
 }
 h2 {
   color: #eee;
-  font-size:2.25em;
-  line-height: .25em;
-  font-family: "Roboto", Arial, sans serif;
-  font-weight: lighter;
+  font-size:2em;
+  line-height:.25em;
+  font-family:"Roboto", Arial, sans-serif;
+  font-weight:lighter;
+}
+h3 {
+  color:#fff;
+  font-size:1.25em;
+  line-height:4em;
+  font-family:"Roboto Slab", Courier, serif;	
 }
 p {
-  font-family: "Roboto", Arial, sans serif;
-  font-style: thin;
+  font-size:18px;
+  font-family:"Roboto", Arial, sans-serif;
+  font-style:thin;
 }
-plain {
-  font-size: 18px
-}
-strong {
-	color: #f06;
-	font-style: italic;
-	font-family: "Roboto Slab", Arial, serif;
-	font-weight: lighter;
-	font-size: 1.25em;
+a {
+  color: #f06;
+  font-style: italic;
+  font-family: "Roboto Slab", Arial, serif;
+  font-weight: lighter;
 }
