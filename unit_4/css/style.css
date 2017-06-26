@@ -1,44 +1,51 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet");
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+img { width:300px; }
+* {margin:0; padding:0; box-sizing:border-box;}
 body {
-  padding-top: .5em;
-  padding-right: 12em;
-  padding-left: 4em;
+  font-size:18px;
+  font-family:"Roboto", Arial, sans-serif;
+  font-weight:100;
+  line-height: 1.3;
   text-align: left;
-  background-image: url(../images/portfolio.jpg);
-  background-size: cover;
-  color: #fff;
+}
+section {
+  padding:4em 0;
 }
 hr {
   width:200px;
 }
 h1 {
-  color:#fff; 
   font-size:8em;
-  line-height:.5em;
   font-family:"Roboto Slab", Courier, serif;
 }
 h2 {
-  color: #eee;
   font-size:2em;
-  line-height:.25em;
-  font-family:"Roboto", Arial, sans-serif;
-  font-weight:lighter;
+  font-weight:100;
 }
 h3 {
-  color:#fff;
   font-size:1.25em;
-  line-height:4em;
   font-family:"Roboto Slab", Courier, serif;	
 }
 p {
-  font-size:18px;
-  font-family:"Roboto", Arial, sans-serif;
-  font-style:thin;
+  margin-top:1em;
 }
 a {
   color: #f06;
   font-style: italic;
   font-family: "Roboto Slab", Arial, serif;
   font-weight: lighter;
+}
+header img {
+  width: 2em;
+}
+#intro {
+  background:url(../images/portfolio.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  text-align: center;
+  color: #fff;
+}
+#intro img {
+  width: 10em;
 }
