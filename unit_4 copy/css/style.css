@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+body {
+  padding-top: .5em;
+  padding-right: 12em;
+  padding-left: 4em;
+  text-align: left;
+  background-image: url(../images/portfolio.jpg);
+  background-size: cover;
+  color: #fff;
+}
+hr {
+  width:200px;
+}
+h1 {
+  color:#fff; 
+  font-size:8em;
+  line-height:.5em;
+  font-family:"Roboto Slab", Courier, serif;
+}
+h2 {
+  color: #eee;
+  font-size:2em;
+  line-height:.25em;
+  font-family:"Roboto", Arial, sans-serif;
+  font-weight:lighter;
+}
+h3 {
+  color:#fff;
+  font-size:1.25em;
+  line-height:4em;
+  font-family:"Roboto Slab", Courier, serif;	
+}
+p {
+  font-size:18px;
+  font-family:"Roboto", Arial, sans-serif;
+  font-style:thin;
+}
+a {
+  color: #f06;
+  font-style: italic;
+  font-family: "Roboto Slab", Arial, serif;
+  font-weight: lighter;
+}
